@@ -10,7 +10,12 @@ import Github from '@/components/icons/Github.vue'
     <router-link class="hover:text-pink-500" active-class="text-pink-500" to="/changed"
       >Решение</router-link
     >
-    <a class="hover:text-pink-500" href="#" target="_blank" rel="noopener noreferrer">
+    <a
+      class="hover:text-pink-500"
+      href="https://github.com/detailcore/vue3-table-test"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
       <Github class="w-full max-w-[32px]" />
     </a>
   </header>
