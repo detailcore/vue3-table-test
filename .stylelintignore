@@ -1,0 +1,8 @@
+/node_modules/
+/build/
+/static/
+/tmp/
+/dist/
+
+*.cjs
+**/*.cjs
