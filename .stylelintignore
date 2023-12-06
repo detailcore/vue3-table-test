@@ -4,5 +4,6 @@
 /tmp/
 /dist/
 
+replace.js
 *.cjs
 **/*.cjs
