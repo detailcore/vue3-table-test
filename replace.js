@@ -20,8 +20,11 @@ const pathOldCss = data.match(/href="(.*?)"/)[1] // "/assets/index-1da8cd0c.css"
 data = data.replace(pathOldJs, `/${preCurDirName}/${curDirName}/dist` + pathOldJs)
 data = data.replace(pathOldCss, `/${preCurDirName}/${curDirName}/dist` + pathOldCss)
 
-console.log('data', data)
+console.log('arrPaths =>', arrPaths)
+console.log('curDirName =>', curDirName)
+console.log('preCurDirName =>', preCurDirName)
+
+// console.log('data', data) // Отобразить результат
 // fs.writeFileSync(indexOrig, data) // Перезаписываем данные в файле
-// fs.rename(indexOrig, indexTpl, () => {}) // изменяем формат файла
 
 console.log('Готово!')
